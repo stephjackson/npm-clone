@@ -58,7 +58,7 @@ nav li {
 }
 
 .search-bar {
-  width: 75%;
+  width: 70%;
   height: 3.25em;
   padding-left: 1em;
   margin-left: 1.25em;
@@ -177,12 +177,13 @@ nav li {
   background: url(./images/forklift.svg) 0 0 no-repeat;
   background-size: cover;
   height: 30em;
+  position: relative;
 }
 
 .wat-text {
   position: absolute;
-  top: 172.5vh;
-  left: 32.5vh;
+  top: 10vh;
+  left: 30vh;
 }
 
 .wat-text h4 {
