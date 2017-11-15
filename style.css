@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  font-family: Roboto;
+  color: white;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 5px;
+  height: 25px;
+  padding: 10px;
+}
+
+a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+nav li {
+  position: relative;
+  bottom: 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.acronym {
+  padding-left: 1em;
+  color: rgba(255,255,255,0.8);
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.search {
+  padding: 20px;
+  height: 50px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.search-bar {
+  width: 75%;
+  height: 3.25em;
+  padding-left: 1em;
+  margin-left: 1.25em;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgba(255,255,255,.2);
+  font-size: 1em;
+}
+
+.header-link {
+  color: rgba(255,255,255,.8);
+  text-decoration: none;
+  font-size: 1.125em;
+  margin-top: .8em;
+  margin-left: 1.25em;
+}
+
+.bear-logo {
+  margin-top: .25em;
+  margin-left: .1em;
+}
+
+.amazing {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(./images/city-scape.svg) 0 0 no-repeat;
+  background-size: cover;
+  height: 26em;
+}
+
+.header h2 {
+  position: relative;
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1em;
+  top: -2.5vh;
+}
+
+.header p {
+  position: relative;
+  font-size: 1em;
+  font-weight: 300;
+  top: -4.5vh;
+  width: 50%;
+}
+
+.link-button {
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  font-size: 1em;
+  font-family: Roboto;
+  font-weight: 300;
+  color: white;
+  padding: .75em 2em .75em 2em;
+  border-radius: 2em;
+}
+
+.header-container {
+  margin: 0 auto;
+  padding: 1vh 0;
+}
+
+.orgs {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  background-color: rgb(39, 53, 71);
+}
+
+.orgs img {
+  width: 37.5%;
+  padding-left: 15%;
+}
+
+.orgs-column {
+  width: 37.5%;
+}
+
+.orgs .link-button {
+  position: relative;
+  top: -7vh;
+  background-color: rgb(203, 56, 55);
+}
+
+.orgs h3 {
+  position: relative;
+  top: -4.5vh;
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+.orgs li {
+  position: relative;
+  top: -9.5vh;
+  line-height: 2.5em;
+  font-weight: 100;
+}
+
+.orgs p {
+  position: relative;
+  top: -7vh;
+}
+
+.orgs-text {
+  padding-right: 5%
+}
+
+.orgs-link {
+  font-weight: 700;
+}
+
+.wat {
+  background: url(./images/forklift.svg) 0 0 no-repeat;
+  background-size: cover;
+  height: 30em;
+}
+
+.wat-text {
+  position: absolute;
+  top: 172.5vh;
+  left: 32.5vh;
+}
+
+.wat-text h4 {
+  font-weight: 300;
+  font-size: 2.25em;
+}
+
+.wat-text p {
+  position: relative;
+  top: -4vh;
+  width: 40%;
+  font-weight: 100;
+}
+
+.wat .link-button {
+  background-color: rgb(49, 68, 88);
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.blocks-header {
+  padding: 4% 0% 2% 0%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.blocks-icons {
+  width: 100%;
+  text-align: center;
+}
+
+.blocks-icons p {
+  padding: 0 20% 0 20%;
+  width: 60%;
+}
+
+.blocks-icons-width {
+  width: 33%;
+}
+
+.blocks p, .blocks h4 {
+  color: rgb(135, 145, 156);
+}
+
+.blocks-header h3 {
+  font-weight: 300;
+  font-size: 2.25em;
+}
+
+.blocks-icons h4 {
+  margin: -.1em;
+  margin-top: .5em;
+}
+
+.blocks a {
+  color: rgb(208, 74, 73);
+}
+
+.blocks h4 {
+  font-size: 1.2em;
+}
+
+.blocks h3, .blocks h4 {
+  color: rgb(83, 88, 98);
+}
